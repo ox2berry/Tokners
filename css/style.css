@@ -1,0 +1,871 @@
+@font-face {
+    font-family: CenturyGothic;
+    font-weight: 400;
+    src: url(../fonts/CenturyGothic.ttf);
+    src: url(../fonts/CenturyGothic.woff);
+    src: url(../fonts/CenturyGothic.woff2);
+}
+@font-face {
+    font-family: CenturyGothic;
+    font-weight: 700;
+    src: url(../fonts/CenturyGothic-Bold.ttf);
+    src: url(../fonts/CenturyGothic-Bold.woff);
+    src: url(../fonts/CenturyGothic-Bold.woff2);
+}
+@font-face {
+    font-family: CenturyGothicItalic;
+    font-weight: 700;
+    src: url(../fonts/CenturyGothic-BoldItalic.ttf);
+    src: url(../fonts/CenturyGothic-BoldItalic.woff);
+    src: url(../fonts/CenturyGothic-BoldItalic.woff2);
+}
+@font-face {
+    font-family: AzoSans;
+    font-weight: 700;
+    src: url(../fonts/AzoSans-Bold.ttf);
+    src: url(../fonts/AzoSans-Bold.woff);
+    src: url(../fonts/AzoSans-Bold.woff2);
+}
+.body{
+    position: relative;
+}
+/* -----Header------ */
+.header{
+    position: absolute;
+    display: flex;
+    width: 1920px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    width: 187px;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: 84px;
+    background-color: black;
+}
+.menu{
+    display: flex;
+}
+.menu-link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: CenturyGothic;
+    font-weight: 700; 
+    font-size: 14px;
+    line-height: 17px;
+}
+a.menu-link{
+    padding-right: 50px;
+    padding-top: 10px;
+}
+.menu-button{
+    display: flex;
+    width: 222px;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+.buttonSI{
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.bottonSU{
+    width: 147px;
+    height: 48px;
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    border: 2px solid #22A75D;
+    border-radius: 52px;
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.main-page{    
+    /* height: 1141px; */
+    width: 1920px;
+    background-image: url(../tokners.assets/top-blink@2x.png);
+    background-size: cover;
+    background-color: rgb(0,0,0.75);
+}
+/*--------- Block-1 ----------*/
+.topping{
+    display: flex;
+    position: relative;
+}
+.topping-presentation{
+    width: 100%;
+    height: 1092px;
+    color: white;
+    padding-left: 173px;
+    padding-top: 270px;
+    width: 40%;
+}
+.topping-text-blue{
+    font-family: CenturyGothic;
+    font-weight: 700; 
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(0deg, #2B3087 0%, #00B4EC 81.99%), linear-gradient(0deg, #FFD100, #FFD100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     padding-bottom: 10px;
+}
+.topping-title{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    width: 562px;
+    padding-bottom: 30px;
+}
+.topping-description{
+    font-family: CenturyGothic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDE2FF;
+    opacity: 0.6;
+    padding-bottom: 40px;
+}
+.topping-button-green{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #22A75D; 
+    box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+    border-radius: 52px;
+    width: 147px;
+    height: 48px;
+}
+/* .image-phone{
+    background-image: url(../tokners.assets/promo-1.png);
+    background-size: cover;
+    width:60%;
+} */
+.phone{
+    position: absolute;
+    display: flex;
+    padding-bottom: 100px;
+    right: 0;
+}
+/*------------ Block-2--------- */
+.information{
+    display: flex;
+    width: 1574px;
+    height: 700px;
+    padding-left: 173px;
+}
+.wrapper-green{
+    padding-right: 20px;
+    padding-top: 50px;
+}
+.information-green{
+    display: block;
+    height: 436px;
+    width: 777px;
+    background: #171B29;
+    border-radius: 25px; 
+}
+.green-crown{
+    padding-left: 72px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.green-creators{
+    padding-left: 70px;
+    padding-bottom: 20px;
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.g-creators{
+    text-decoration: underline;
+    color: #22A75D;
+}
+.creators-information{
+    font-family: CenturyGothic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-left: 70px;
+    padding-bottom: 130px;
+    width: 710px;
+    height: 72px;
+}
+.green-link{
+    font-family: CenturyGothic;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px; 
+    text-decoration: underline;
+    color: #22A75D;
+    padding-left: 70px;
+}
+.arrow-right-green{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.wrapper-blue{
+    padding-top: 150px;
+}
+.information-blue{
+    display: block;
+    height: 436px;
+    width: 777px;
+    background: #171B29;
+    border-radius: 25px;
+}
+.blue-star{
+    padding-left: 70px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    filter: drop-shadow(0px 15px 25px rgba(34, 120, 212, 0.25));
+}
+.blue-holders{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+.b-holders{
+    text-decoration: underline;
+    color:  #2278D4;
+}
+.holders-information{
+    font-family: CenturyGothic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding-left: 70px;
+    padding-bottom: 150px;
+    width: 700px;
+    height: 120px;
+}
+.blue-link{
+    font-family: CenturyGothic;
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px; 
+    text-decoration: underline;
+    color: #2278D4;
+    padding-left: 70px;    
+}
+.arrow-right-blue{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+/*----- Block-color ------*/
+.block-color{
+    display: flex;
+    width: 1920px;
+    height: 800px;
+}
+.color-image{
+  height: 800px;
+  width: 960px;
+}
+.w-white-block{
+    display: flex;
+    width: 960px;
+    height: 800px;
+    background: white;
+    border-top-left-radius: 400px;
+}
+.white-block-information{
+    display: block;
+}
+.weentar{
+    padding-top: 172px;
+    padding-left: 256px;
+}
+.white-block-title{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #0F1320;
+    padding-left: 143px;
+    padding-bottom: 30px;
+}
+.white-block-subtitle{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0F1320;
+    opacity: 0.6;
+    padding-left: 143px;
+    padding-bottom: 30px;
+}
+.white-block-description{
+    font-family: CenturyGothic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F1320;
+    opacity: 0.6;
+    width: 700px;
+    padding-left: 143px;
+    padding-bottom: 30px;
+}
+/* ----Blob----- */
+.wrapper-white{
+    background: white;
+}
+.blob{
+    display: flex;
+    width: 1920px;
+    height: 700px;
+    background: #0F1320;
+    border-top-right-radius: 350px;
+    justify-content: space-around;
+    padding-top: 203px;
+    padding-left: 173px;
+    padding-right: 188px;
+}
+.text-blob{
+    font-family: CenturyGothic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.year{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 41px;
+    height: 36px;
+    padding-left: 100px;
+}
+.number{
+}
+.Q1-green{
+    height: 68px;
+    width: 332px;
+}
+.number-green{
+    font-family: AzoSans;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    color: #22A75D;
+    list-style-type: decimal-leading-zero;
+}
+.blob-green{     
+    filter: drop-shadow(0px 15px 25px rgba(34, 167, 93, 0.25));
+}
+
+.Q2-blue{
+    width: 340px;
+    height: 170px;
+}
+.number-blue{
+    font-family: AzoSans;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    color: #2278D4;
+    list-style-type: decimal-leading-zero;
+}
+.blob-blue{
+    filter: drop-shadow(0px 15px 25px rgba(34, 120, 212, 0.25));
+}
+.Q3-yellow{
+    width: 303px;
+    height: 142px;
+}
+.blob-yellow{
+    filter: drop-shadow(0px 15px 25px rgba(255, 209, 0, 0.25));
+}
+.number-yellow{
+    font-family: AzoSans;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    color: #FFD100;
+    list-style-type: decimal-leading-zero;
+}
+.Q4-red{
+    width: 328px;
+    height: 136px;
+}
+.blob-red{
+    filter: drop-shadow(0px 15px 25px rgba(226, 6, 19, 0.25));
+}
+.number-red{
+    font-family: AzoSans;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 34px;
+    color: #E20613;
+    list-style-type: decimal-leading-zero;
+    /* padding-inline-start: 10px; */
+}
+/* ol { */
+    /* list-style-type: none; Убираем исходные маркеры */
+    /* counter-reset: my-counter; Задаём имя счетчика */
+  /* } */
+  /* li::before { */
+    /* content: counter(my-counter); Выводим число */
+    /* counter-increment: my-counter; Увеличиваем значение счётчика */
+    /* font-family: AzoSans; */
+    /* font-weight: 700; */
+    /* font-size: 12px; */
+    /* line-height: 34px; */
+    /* color: #E20613; */
+    /* margin-right: 0.7em; Расстояние от цифры до текста */
+   /* } */
+  /* } */
+
+ /*----Tokner is coming-----  */
+
+.wrapper-color{
+    /* background-image: url(../tokners.assets/block2-color.png); */
+    /* background: cover; */
+    /* height: 1800px; */
+    /* width: 100%; */
+    position: relative;
+    z-index: 1;
+}
+.wrapper-color::after {
+    content: "";
+    display: block;
+    position: absolute;  
+    background: url(../tokners.assets/claw-right.png);
+    background-size: cover;
+    right: 0px;
+    width: 250px;
+    height: 250px;
+}
+.tokner-is-coming{
+    display: flex;
+    width: 100%;
+    height: 1100px;
+    background: #0F1320;
+    border-bottom-left-radius: 250px;
+    padding-left: 173px;
+}
+
+.logo-icon{
+    padding-right: 24px;
+    padding-top: 13px;
+}
+.logo-tokner{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.text-Tokner-is-coming{
+    width: 644px;
+    margin-right: 39px;
+}
+.text-grey{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9FA1A6;
+}
+.text-tokner{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;   
+    opacity: 0.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-grey-italic{
+    font-family: CenturyGothicItalic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9FA1A6;
+}
+.quote{
+    margin-right: 14px;
+}
+.button-tokner{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px; 
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #22A75D;
+    box-sizing: border-box;
+    background: transparent;
+    border-radius: 52px;
+    width: 147px;
+    height: 48px;
+}
+.image-hand{    
+    width: 777px;
+    height: 900px;
+    background: #171B29;
+    border-radius: 25px;
+    margin-left: 173px;
+}
+.hand{
+    height: 928px;
+    width: 891px;
+    margin-left: -150px;
+    margin-top: -30px;
+}
+/* ---- Color-phase ---- */
+.phase{
+    /* background: url(../tokners.assets/block2-color.png); */
+    width: 100%;
+    height: 900px;
+    position: relative;
+    z-index: 0;
+}
+
+.phase-bg{
+    position: absolute;
+    top: -250px;
+    z-index: -1;
+}
+.phase-title{
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 255px;
+}
+.phase-blob{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 173px;
+    padding-right: 173px;
+}
+.green-01{
+    width: 511px;
+    height: 585px;
+    left: 173px;
+    top: 4673px;
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.green-shadow{
+    filter: drop-shadow(0px 15px 25px rgba(34, 167, 93, 0.25));
+}
+.blue-02{
+    width: 511px;
+    height: 585px;
+    left: 704px;
+    top: 4733px;    
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin-top: 80px;
+}
+.blue-shadow{
+    filter: drop-shadow(0px 15px 25px rgba(34, 120, 212, 0.25));
+}
+.yellow-03{
+    width: 511px;
+    height: 585px;
+    left: 704px;
+    top: 4733px;    
+    background: #FFFFFF;
+    border-radius: 25px;
+}
+.yellow-shadow{
+    filter: drop-shadow(0px 15px 25px rgba(255, 209, 0, 0.25));
+}
+.phase-blob-image{
+    position: relative;
+    width: 82px;
+    height: 82px;
+    justify-content: center;
+    top: 110px;
+    left: 215px; 
+}
+.blob-number{
+    position: absolute;
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;  
+    text-align: center;    
+    color: #0F1320;
+    padding-left: 240px;
+    padding-top: 53px;
+}
+
+.phase-blob-title{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 54px;
+    color: #191B21;
+    padding-left: 174px;
+    padding-top: 140px;
+    padding-bottom: 10px;
+}
+.phase-blob-data{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #191B21;
+    opacity: 0.8;
+    padding-bottom: 70px;
+}
+.phase-blob-rate{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #191B21;
+    opacity: 0.8;
+    padding-bottom: 20px;
+}
+.phase-blob-amount{
+    font-family: CenturyGothic;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 20px;
+    text-align: center;
+    color: #191B21;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+.amount-thick{
+    font-weight: 700;
+}
+
+/* ----Stages----- */
+.stages{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+}
+.stages::before{
+    content: "";
+    display: block;
+    position: absolute;  
+    background: url(../tokners.assets/claw-right.png);
+    transform: rotate(180deg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    top: -250px;
+}
+.stages-title{
+    display: block;
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #F7F5F9;
+    padding-left: 862px;
+    padding-top: 50px;
+}
+.stages-contain{
+    background: #0F1320;
+    width: 100%;
+    height: 600px;
+    border-top-right-radius: 250px;
+    align-items: center;
+}
+.stage-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 174px 0 173px;
+}
+.case{
+    width: 511px;
+    height: 270px;      
+    background: #171B29;
+    border-radius: 25px;
+}
+.stage-number{
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.3;
+    padding: 30px 0 45px 30px;
+}
+.stage-text{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;   
+    color: #FFFFFF;
+    padding: 5px 132px 99px 133px;   
+}
+.stage-one{
+    position: relative;
+}
+.one{
+    padding: 5px 116px 99px 133px;
+}
+.two-wrapper{
+    padding-top: 50px;
+}
+.yellow-arrow-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+.yellow-arrow-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 86px;
+    height: 86px;
+    background: #0F1320;
+    border-radius: 50%;
+}
+.green-arrow-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+.green-arrow-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 86px;
+    height: 86px;
+    background: #0F1320;
+    border-radius: 50%;
+}
+/* ------footer----- */
+.footer{
+    width: 1920px;
+    height: 900px;
+    background-size: cover;
+    background-image: url(../tokners.assets/bottom-blink@2x.png);
+    background-color:#0F1320;
+}
+.footer-menu-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+.footer-menu{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 20px;
+   width: 800px;
+   padding-bottom: 137px;
+}
+.footer-link{
+    text-decoration: none;
+    height: 20px;
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.slash{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.16;
+}
+.footer-social{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-social-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #171B29;
+    border-radius: 50%;
+}
+.footer-copyright{
+    display: block;
+    justify-content: flex-end;
+}
+.copyright{
+    font-family: CenturyGothic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;     
+    text-align: right;    
+    color: #FFFFFF;
+}
+.design{
+    font-family: CenturyGothic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
