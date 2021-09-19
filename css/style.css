@@ -44,7 +44,6 @@
     height: 30px;
     margin-left: 40px;
     margin-right: 84px;
-    background-color: black;
 }
 .menu{
     display: flex;
@@ -90,11 +89,23 @@ a.menu-link{
     font-size: 14px;
     line-height: 17px;
 }
+.line-wrapper{
+    display: none;
+    flex-direction: column;
+}
+.line{
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 2px 0;
+}
 .main-page{    
     /* height: 1141px; */
     width: 1920px;
     background-image: url(../tokners.assets/top-blink@2x.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: rgb(0,0,0.75);
 }
 /*--------- Block-1 ----------*/
@@ -432,24 +443,7 @@ a.menu-link{
     list-style-type: decimal-leading-zero;
     /* padding-inline-start: 10px; */
 }
-/* ol { */
-    /* list-style-type: none; Убираем исходные маркеры */
-    /* counter-reset: my-counter; Задаём имя счетчика */
-  /* } */
-  /* li::before { */
-    /* content: counter(my-counter); Выводим число */
-    /* counter-increment: my-counter; Увеличиваем значение счётчика */
-    /* font-family: AzoSans; */
-    /* font-weight: 700; */
-    /* font-size: 12px; */
-    /* line-height: 34px; */
-    /* color: #E20613; */
-    /* margin-right: 0.7em; Расстояние от цифры до текста */
-   /* } */
-  /* } */
-
  /*----Tokner is coming-----  */
-
 .wrapper-color{
     /* background-image: url(../tokners.assets/block2-color.png); */
     /* background: cover; */
@@ -682,7 +676,6 @@ a.menu-link{
 .amount-thick{
     font-weight: 700;
 }
-
 .phase-lower-contain{
     position: absolute;
     background: #0F1320;
@@ -691,7 +684,6 @@ a.menu-link{
     border-top-right-radius: 278px;
     bottom: 0;
 }
-
 .phase-lower-contain::before{
     content: "";
     display: block;
@@ -703,7 +695,6 @@ a.menu-link{
     height: 278px;
     top: -278px;
 }
-
 /* ----Stages----- */
 .stages{
     display: flex;
@@ -734,7 +725,6 @@ a.menu-link{
     width: 100%;
     padding-top: 50px;
 }
-
 .stage-two{
     margin-top: 50px;
 }
@@ -768,13 +758,9 @@ a.menu-link{
     line-height: 24px;   
     color: #FFFFFF; 
 }
-
-
-
 .one{
     padding: 5px 116px 99px 133px;
 }
-
 .arrow-wrapper{
     z-index: 1;
     position: relative;
@@ -799,6 +785,7 @@ a.menu-link{
     height: 500px;
     background-size: cover;
     background-image: url(../tokners.assets/bottom-blink@2x.png);
+
     background-color:#0F1320;
 }
 .footer-menu-wrapper{
@@ -879,3 +866,4 @@ a.menu-link{
     color: #FFFFFF;
     opacity: 0.60;
 }
+
